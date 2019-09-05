@@ -21,7 +21,7 @@ public class PetMapService extends MapService<Pet, Long> implements PetService {
 
     @Override
     public Pet save(Pet pet) {
-        return super.save(pet.getId(), pet);
+        return super.save(pet);
     }
 
     @Override
