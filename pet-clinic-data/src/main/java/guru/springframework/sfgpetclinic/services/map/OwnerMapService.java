@@ -43,7 +43,7 @@ public class OwnerMapService extends MapService<Owner, Long> implements OwnerSer
     }
 
     @Override
-    public List<Owner> findAllByLastNameLike(String lastName) {
+    public List<Owner> findAllByLastName(String lastName) {
         //todo - impl
         return null;
     }
